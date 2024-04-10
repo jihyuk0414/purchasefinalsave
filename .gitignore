@@ -37,5 +37,6 @@ out/
 ### VS Code ###
 .vscode/
 
-darakbang-3b7415068a92.json
+# Ignore darakbang-3b7415068a92.json file
+Product/src/main/resources/darakbang-3b7415068a92.json
 
