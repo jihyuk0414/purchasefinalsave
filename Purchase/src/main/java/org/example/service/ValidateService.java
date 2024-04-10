@@ -17,7 +17,6 @@ public class ValidateService {
 
     public Mono<PurChaseCheck> getpurchaseinfobyportone(String paymentid, String token)
     {
-
         Mono<PurChaseCheck> purchasecheck = webClient.get()
                 .uri("/payments/{paymentId}", paymentid)
                 .header("Authorization", "Bearer " + token)

@@ -10,7 +10,9 @@ import lombok.NoArgsConstructor;
 public class ValidationRequest {
 
     String payment_id;
-    int total_amount; //결제금액
+    int difference_amount; //차이 금액
+    Long product_id;
+    int original_amount ; //상품 원본 금액
 
 
 }
